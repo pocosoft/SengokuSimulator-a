@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw6lhgohwo02d"]
+
+[ext_resource type="Texture2D" uid="uid://nehd1obrl32" path="res://assets/images/title_screen.webp" id="1_lnp5g"]
+[ext_resource type="Script" path="res://TitleScreen.gd" id="1_rnyte"]
+
+[node name="TitleScene" type="Node2D"]
+script = ExtResource("1_rnyte")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("1_lnp5g")
